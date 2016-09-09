@@ -42,7 +42,7 @@ your application.
 Assuming that, add follow to your `Gemfile`.
 
 ```ruby
-gem "com-client", ">= 0.1.0"
+gem "com-client", ">= 0.2.0"
 ```
 
 And then execute from the dirrectory with `Gemfile` (likely it should be your
@@ -60,7 +60,7 @@ Likely you already know how to do that, but for clarity sake here is some tips a
 Add follow line to your library's [`gemspec`](http://guides.rubygems.org/specification-reference/) file:
 
 ```ruby
-spec.add_runtime_dependency 'com-client', '>= 0.1'
+spec.add_runtime_dependency 'com-client', '>= 0.2'
 ```
 
 See also [official documentation on rubygems about adding runtime dependencies](http://guides.rubygems.org/specification-reference/#add_runtime_dependency).
