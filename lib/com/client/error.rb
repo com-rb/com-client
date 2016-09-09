@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require "com/error"
-
 # Purpose: mixin
 #
 # @see ::Com::Error
