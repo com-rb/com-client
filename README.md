@@ -116,6 +116,7 @@ Introduced namespace modules:
 Introduced error tagging modules:
 
 * [`::Com::Client::Error`](lib/com/client/error.rb)
+* [`::Com::Client::StandardError`](lib/com/client/standard_error.rb)
 
 ## Development
 
