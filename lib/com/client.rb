@@ -11,3 +11,4 @@ end
 
 
 require "com/client/error"
+require "com/client/standard_error"
