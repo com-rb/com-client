@@ -5,7 +5,7 @@ require "com/client/version"
 
 # Purpose: namespace
 #
-# Namespace for client modules and classes of com-client.
+# Namespace for client modules and classes of "com-client" library.
 module ::Com::Client
 end
 
