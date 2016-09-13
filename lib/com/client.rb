@@ -15,3 +15,4 @@ require "com/client/standard_error"
 
 require "com/client/request"
 require "com/client/request_factory"
+require "com/client/result"
