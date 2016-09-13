@@ -7,6 +7,12 @@ require "com/client/version"
 #
 # Namespace for client modules and classes of "com-client" library.
 module ::Com::Client
+  module_function
+
+  # @return [::Com::Client::BaseAbstractFactory]
+  def build_abstract_factory
+    ::Com::Client::BaseAbstractFactory.new
+  end
 end
 
 
@@ -19,3 +25,4 @@ require "com/client/result"
 require "com/client/response_parser"
 
 require "com/client/base_client"
+require "com/client/base_abstract_factory"
