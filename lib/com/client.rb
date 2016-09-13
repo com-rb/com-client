@@ -17,3 +17,5 @@ require "com/client/request"
 require "com/client/request_factory"
 require "com/client/result"
 require "com/client/response_parser"
+
+require "com/client/base_client"
